@@ -1,5 +1,4 @@
 require "serverengine"
-require "celluloid/io"
 
 module Marfusha
   module PublisherProvisioner

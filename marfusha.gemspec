@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "ffi-rzmq"
   spec.add_runtime_dependency "serverengine"
-  spec.add_runtime_dependency "thor"
+  spec.add_runtime_dependency "slop"
   spec.add_runtime_dependency "celluloid-io"
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
