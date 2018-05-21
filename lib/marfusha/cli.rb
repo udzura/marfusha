@@ -18,6 +18,14 @@ module Marfusha
       when "worker"
       when "provisioner"
       else
+        $stderr.puts <<~USAGE
+          #{$0}: valid subbcommands:
+              controller
+              provisionewr
+              worker
+          Showing more info with --help option with each subcommand
+          ---
+        USAGE
         raise "Invalid subcommand: #{ARGV.inspect}"
         # TODO: usage
       end
